@@ -1,0 +1,98 @@
+html, body {
+    background: url('/images/pokeai.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #636b6f;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: calc(100% - 120px); /* Ajustement pour tenir compte du header et du footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-list {
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-card {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.pokemon-image {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.pokemon-details {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.scrolling {
+    animation: scrolling 20s linear infinite;
+}
