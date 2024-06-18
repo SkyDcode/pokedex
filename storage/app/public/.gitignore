@@ -1,2 +1,25 @@
+# Ignorer tout par défaut
 *
+
+# Ne pas ignorer le fichier .gitignore lui-même
 !.gitignore
+
+# Ne pas ignorer le dossier public/pokemons
+!public/
+!public/pokemons/
+!public/pokemons/*.jpg
+!public/pokemons/*.jpeg
+!public/pokemons/*.webp
+
+# Ne pas ignorer les images dans le dossier images
+!images/
+!images/types/
+!images/pokemon/
+!images/types/*.png
+!images/types/*.jpeg
+!images/types/*.jpg
+!images/types/*.webp
+!images/pokemon/*.png
+!images/pokemon/*.jpeg
+!images/pokemon/*.jpg
+!images/pokemon/*.webp
